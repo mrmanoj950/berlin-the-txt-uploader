@@ -24,14 +24,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 bot = Client(
     "bot",
-    api_id=4942197,
-    api_hash= "",
-    bot_token= "7831171583:AAEaUahmzfWh-F6-6KB4Moy1K761nLQ20vg")
+    api_id=29795810,
+    api_hash= "3f6d609ea9d8367d8317e869bd8c0bb2",
+    bot_token= "8091524070:AAHvYc-J0OvUUnBYB1-swnNO8AFEYpnCRIk")
 
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hi!\n\nGive /txt Command to Downlaod From a Text file.\n\n**𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 :** ARZANXD \n")
+    editable = await m.reply_text("Hi!\n\nGive /txt Command to Downlaod From a Text file.\n\n**𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 :** berlin \n")
 
 
 @bot.on_message(filters.command("stop"))
