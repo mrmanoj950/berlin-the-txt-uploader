@@ -112,7 +112,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("Now send the **Thumb url**\nEg » ```https://envs.sh/pSw.jpg```\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\nEg » ```https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2RlbD6RuONW1l8slaNnmmNXyVLsU9WjnFtgEnSOD3URuUkPuNJ-BeNBU58fROeFEPYXE-03edwWbpEyVRgduPbOkIVXyhY08v2Cf7XCBffFpHlIg0pQPW3636ma8TfAnzVn1I-uWNwQ8dgRySl0Y9XvQr0itYneBsP36jFm4V0P1m3O7nwGyOKBYeik43/w320-h160/1000052450.jpg```\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
